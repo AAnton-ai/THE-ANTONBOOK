@@ -340,7 +340,7 @@ nav{
 .user-profile img{
 	width: 180px;
 	border-radius: 50%;
-	margin-right: : 10px;
+	margin-right: 10px;
 }
 
 .user-profile p{
@@ -487,9 +487,28 @@ nav{
 	transition: max-height 0.3s;
 }
 
+.settings-menu2{
+	position: absolute;
+	width: 90%;
+	max-width: 400px;
+	height: 500px;
+	background: var(--bg-color);
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	border-radius: 4px;
+	overflow: hidden;
+	top: 70px;
+	right: 5%;
+	max-height: 0;
+	transition: max-height 0.3s;
+}
+
 
 .settings-menu-hieght{
 	max-height: 700px;
+}
+
+.settings-menu2-hieght{
+	max-height: 500px;
 }
 
 .user-profile a{
@@ -824,4 +843,9 @@ nav{
 	.info-col, .post-col{
 		flex-basis: 100%;
 	}
+}
+
+.Idea button a{
+	text-decoration: none;
+	color: #000;
 }
